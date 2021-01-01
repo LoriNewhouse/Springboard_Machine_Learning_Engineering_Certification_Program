@@ -1,5 +1,5 @@
 # Learning Exercises
-The `ipynb` notebooks in this directory are homework exercises associated with a lecture, video, or reading.
+The `ipynb` notebooks in this directory are homework exercises associated with a lecture, video, or reading. Some notebooks are reading large `csv` files which are not present in the directory. These `csv`'s are larger than the GitHub 50MB limit (even after zipping.)
 
 ### data_preparation
 - `website_api.ipynb` (OMDB, Digital Public Library of America, seeclickfix; `json`,  `urllib`)
