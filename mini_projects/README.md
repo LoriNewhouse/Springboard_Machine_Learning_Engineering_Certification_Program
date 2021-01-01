@@ -1,5 +1,5 @@
 # Mini Projects
-The `ipynb` notebooks in this directory are final projects associated with a technical skill unit. They are more complicated, real-world application driven tasks than the homework style work in the `learning_exercises` directory. Some were done on a cloud provider (Paperspace) or Azure Databricks. Each took 1-3 days to complete.
+The `ipynb` notebooks in this directory are final projects associated with a technical skill unit. They are more complicated, real-world application driven tasks than the homework style work in the `learning_exercises` directory. Some were done on a cloud provider (Paperspace) or Databricks. Each took 1-3 days to complete. Some are reading large `csv` files which are not present in the directory. These `csv`'s are larger than the GitHub 50MB limit (even after zipping.)
 
 #### data_preparation: `quandl_website_api.ipynb`
 - financial market data
