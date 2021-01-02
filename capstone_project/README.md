@@ -9,7 +9,7 @@ http://archive.ics.uci.edu/ml/datasets/Covertype
 - non-ordinal, high cardinality categorical feature: 40 categories
 
 There is significant class imbalance with the 5 smallest classes present at < 7% each, totaling 15%.
-![target hist](images/target_histogram.png)
+https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/capstone_project/images/target_histogram.PNG
 
 Here is a histogram of the high cardinality categorical feature, `soil_index`. Five encoding techniques were investigated, including 3 domain informed clustering approaches.   
 ![soil hist](images/soil_index_histogram.png)
