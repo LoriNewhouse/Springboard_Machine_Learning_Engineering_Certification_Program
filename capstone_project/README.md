@@ -1,3 +1,4 @@
+# Project Description
 This is a classification project in environmental science.
 The dataset is for the Roosevelt National Forest, Colorado, USA. It is available from the University of California--Irvine Machine Learning Repository:   
 http://archive.ics.uci.edu/ml/datasets/Covertype
@@ -14,16 +15,18 @@ There is significant class imbalance with the 5 smallest classes present at < 7%
 Here is a histogram of the high cardinality categorical feature, `soil_index`. Five encoding techniques were investigated, including 3 domain informed clustering approaches.   
 ![soil hist](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/capstone_project/images/soil_index_histogram.PNG)
 
+# Modeling Results
 Initial modeling investigation was done using`sklearn` with follow-up investigations using `pycaret`. The modeling work is still in progress. Here are 2 plots of model performance:
 - x-axis: encoding technique
 - y-axis: metric value
 - colored dots: model
-##### overall accuracy
+### overall accuracy
 ![model_metric](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/capstone_project/images/soil_encoding_accuracy.PNG)
 
-##### metrics for 2 target classes (fraction present in training set)
+### metrics for 2 target classes (fraction present in training set)
 ![class_metrics](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/capstone_project/images/soil_encoding_by_class.PNG)
 
+# Notebooks
 Here is a summary of the notebooks:
 - `data_wrangling_and_EDA_update_soil.ipynb`   
 visualizations, pre-processing, pickle results
