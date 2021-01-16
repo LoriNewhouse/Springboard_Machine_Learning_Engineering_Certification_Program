@@ -64,3 +64,19 @@ The `ipynb` notebooks in this directory are final projects associated with a tec
 - ARIMA, rolling windows, differencing, auto correlation, LSTM
 - `keras`, `tensorflow`, `statsmodels`, `sklearn`, `matplotlib`   
 ![mp_time_series](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/mini_projects/images/mp_time_series.PNG)
+
+#### spark_ml: `data_exploration.ipynb`
+- used Databricks
+- US census data
+- SQL table, Spark DataFrame, Pandas DataFrame, SQL queries, Spark queries, visualization
+- `pyspark.sql`, `matplotlib`
+###### income category
+![mp_SparkML_data_investigate](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/mini_projects/images/mp_SparkML_data_investigate.PNG)
+
+#### spark_ml: `income_category.ipynb`
+- used Databricks
+- US census data; binary classification
+- pre-process categorical features and target, performance metrics, coefficients, feature importance, cross validation
+- `OneHotEncoder`, `StringIndexer`, `VectorAssembler`, `Pipeline`, `LogisticRegression`, `GBTClassifier`, `RandomForestClassifier`, `BinaryClassificationEvaluator`, `BinaryClassificationMetrics`, `MulticlassMetrics`, `ParamGridBuilder`, `CrossValidator`
+###### GBTClassifier feature importance
+![mp_SparkML_GBT_feature_importance](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/mini_projects/images/mp_SparkML_GBT_feature_importance.PNG)

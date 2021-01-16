@@ -66,9 +66,17 @@ The `ipynb` notebooks in this directory are homework exercises associated with a
 
 ### recommendation_systems
 - `song_recommender.ipynb` (popularity based, collaborative filtering; `sklearn`)
-- `movie_recommender.ipynb` (collaborative filtering, Azure Databricks; `pyspark.ml`, `pyspark.sql`)
+- `movie_recommender.ipynb` (collaborative filtering, Databricks; `pyspark.ml`, `pyspark.sql`)
 
 ### time_series_analysis
 - `general_analysis_techniques.ipynb` (resample, autocorrelation, de-trend, seasonal decomposition, auto regression, residuals, ARIMA; `statsmodels`, `sklearn`)
 - `autoregressive_packages.ipynb` (`statsmodels`, `pmdarima`, `scipy`)
 - `LSTM_neural_network.ipynb` (stock market data; `keras`, `tensorflow`)
+
+### spark
+- `create_database.ipynb` (visualization, feature engineering, decision tree, pipeline, Databricks; `pyspark.ml`)
+- `manipulate_data.ipynb` (flight delay data, catalog, dataframe, SQL query, filter, select, groupBy, agg, join, Databricks)
+- `machine_learning_pipeline.ipynb` (flight delay data, join, one-hot, pipeline, logistic regression, cross-validation, Databricks; `pyspark.ml`)
+- `telcom_customer_churn.ipynb` (visualization, feature engineering, decision tree, pipeline, Databricks; `pyspark.ml`)
+- `gradient_boosted_tree.ipynb` (bike share data, visualize, pre-process, model, cross-validation, pipeline, Databricks; `pyspark.ml`)
+- `news_article_classification.ipynb` (tokenizer, hasher, pipeline, logistic regression, cross-validation, debugging, Databricks; `pyspark.ml`)
