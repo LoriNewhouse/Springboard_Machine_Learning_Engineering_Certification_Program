@@ -71,7 +71,7 @@ The `ipynb` notebooks in this directory are final projects associated with a tec
 - SQL table, Spark DataFrame, Pandas DataFrame, SQL queries, Spark queries, visualization
 - `pyspark.sql`, `matplotlib`
 ###### income category
-![mp_SparkML_data_investigate](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/mini_projects/images/mp_SparkML_data_investigate.PNG)
+![mp_SparkML_data_investigate](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/mini_projects/images/mp_SparkML_data_investigate.png)
 
 #### spark_ml: `income_category.ipynb`
 - used Databricks
