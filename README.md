@@ -1,6 +1,6 @@
-# MLE Bootcamp
+# MLE Certification Program
 
-This repo contains the capstone project, mini-projects, and homework exercises for my work in the Springboard Machine Learning Engineering bootcamp.
+This repo contains the capstone project, mini-projects, and homework exercises for my work in the Springboard Machine Learning Engineering Certification Program.
 
 https://www.springboard.com/courses/ai-machine-learning-career-track/
 
