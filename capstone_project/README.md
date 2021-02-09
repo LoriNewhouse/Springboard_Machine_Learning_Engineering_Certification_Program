@@ -15,7 +15,7 @@ There is significant class imbalance with the 5 smallest classes present at < 7%
 Here is a histogram of the high cardinality categorical feature, `soil_index`. Five encoding techniques were investigated, including 3 domain informed clustering approaches.   
 ![soil hist](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/capstone_project/images/soil_index_histogram.PNG)
 
-# Model Investigation
+# Model Development
 Initial modeling work was done using`sklearn` followed by detailed work using `pycaret`. Here are 3 plots of model performance:
 - x-axis: encoding technique; minority classes over-sampling technique (factor=3 or 1.5)
 - y-axis: metric value
