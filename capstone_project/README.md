@@ -15,16 +15,28 @@ There is significant class imbalance with the 5 smallest classes present at < 7%
 Here is a histogram of the high cardinality categorical feature, `soil_index`. Five encoding techniques were investigated, including 3 domain informed clustering approaches.   
 ![soil hist](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/capstone_project/images/soil_index_histogram.PNG)
 
-# Modeling Results
-Initial modeling investigation was done using`sklearn` with follow-up investigations using `pycaret`. The modeling work is still in progress. Here are 2 plots of model performance:
-- x-axis: encoding technique
+# Model Investigation
+Initial modeling work was done using`sklearn` followed by detailed work using `pycaret`. Here are 3 plots of model performance:
+- x-axis: encoding technique; minority classes over-sampling technique
 - y-axis: metric value
 - colored dots: model
 ### overall accuracy
-![model_metric](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/capstone_project/images/soil_encoding_accuracy.PNG)
+![model_accuracy](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/capstone_project/images/model_accuracy.PNG)
 
 ### metrics for 2 target classes (fraction present in training set)
-![class_metrics](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/capstone_project/images/soil_encoding_by_class.PNG)
+![model_by_class](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/capstone_project/images/model_by_class.PNG)
+
+### impact of over-sampling 5 smallest classes
+![imblearn_results](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/capstone_project/images/imblearn_results.PNG)
+
+# Model Tuning
+Decision Tree and CatBoost models were tuned using 3-fold cross-validation with 15 iterations.
+![tune_by_class](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/capstone_project/images/tune_by_class.PNG)
+
+# Model Finalization
+Decision Tree model was finalized by fitting with all the data and the tuned hyper-parameters.
+![finalize_results](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/capstone_project/images/finalize_results.PNG)
+![finalize_by_class](https://github.com/LoriNewhouse/Springboard_Machine_Learning_Engineering_bootcamp/blob/main/capstone_project/images/finalize_by_class.PNG)
 
 # Notebooks
 Here is a summary of the notebooks:
