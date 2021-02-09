@@ -40,16 +40,31 @@ logistic regression, SVM, naive bayes
 decision tree, random forest, gradient boosting, XGBoost, LightGBM, CatBoost
    
    
-- `modeling_feature_soil.ipynb`   
+- `modeling_pycaret_soil.ipynb`   
 5 encoding techniques for `soil_index`   
 5 models run for each using `pycaret`
-   
-   
-- `pycaret_results_summary.ipynb`   
-plots of model prediction metrics for soil encoding investigation
    
    
 - `imblearn_investigation.ipynb`   
 get familiar with `imblearn` to address class imbalance   
 preliminary work to incorporating `imblearn` in `pycaret` processing pipeline
-
+   
+   
+- `modeling_pycaret_imblearn-----.ipynb`   
+oversample with factor = 3 and 1.5   
+3 models: decision tree, XGBoost, CatBoost
+   
+   
+- `pycaret_results_summary_plots.ipynb`   
+plots of performance metrics and class metrics for all models     
+   
+   
+- `tuning_cat_boost_f1_macro.ipynb`   
+tune CatBoost model with metric f1 macro     
+similar notebook for tuning with metric f1 custom are not included here   
+similar notebooks for tuning decision tree are not included here   
+   
+   
+- `tuning_results_summary_plots.ipynb`   
+plots of performance metrics and class metrics for tuned decision tree and CatBoost models   
+plots for performance of finalized decision tree model fit with all data     
