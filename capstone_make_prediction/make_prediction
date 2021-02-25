@@ -1,0 +1,11 @@
+
+
+print('making prediction')
+
+from deployment_methods import make_prediction
+
+input_data_filename = 'user_data/user_input_data.csv'
+log_filename        = 'prediction_log.txt'
+predict_success = make_prediction(input_data_filename, log_filename)
+
+print('prediction complete')

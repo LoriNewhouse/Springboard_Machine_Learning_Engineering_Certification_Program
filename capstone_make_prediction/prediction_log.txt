@@ -1,0 +1,38 @@
+
+
+BEGINNING CHECK OF FILE user_data/user_input_data.csv
+BEGINNING CHECK ON NUMERICAL VALUES
+COMPLETED CHECK ON NUMERICAL VALUES
+BEGINNING CHECK OF COLUMN NAMES
+Required column elevation: present in csv file.
+Required column aspect: present in csv file.
+Required column slope: present in csv file.
+Required column HD_hydrology: present in csv file.
+Required column VD_hydrology: present in csv file.
+Required column HD_roadways: present in csv file.
+Required column HD_fire_points: present in csv file.
+Required column hillshade_9am: present in csv file.
+Required column hillshade_noon: present in csv file.
+Required column hillshade_3pm: present in csv file.
+Required column wilderness_index: present in csv file.
+Required column soil_index: present in csv file.
+COMPLETED CHECK OF COLUMN NAMES
+BEGINNING CHECK wilderness_index AND soil_index VALUES
+Check on column wilderness_index: all values are valid.
+Check on column soil_index: all values are valid.
+COMPLETED CHECK wilderness_index AND soil_index VALUES
+COMPLETED CHECK OF FILE user_data/user_input_data.csv
+
+NO ERRORS FOUND IN DATA.
+
+READING INPUT CSV FILE INTO DATAFRAME.
+
+PREPROCESSING DATA.
+
+READING MODEL.
+
+MAKING PREDICTION.
+
+ADDING PREDICTION RESULT TO DATAFRAME.
+
+WRITING CSV FILE user_data/user_input_data_with_prediction.csv.

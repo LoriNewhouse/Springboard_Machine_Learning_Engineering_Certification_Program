@@ -1,0 +1,8 @@
+
+
+print('executing tests')
+
+from deployment_methods import execute_all_unit_tests
+execute_all_unit_tests()
+
+print('execution finished; results are in file testing_log.txt')

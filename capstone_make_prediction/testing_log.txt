@@ -1,0 +1,75 @@
+
+
+BEGINNING CHECK OF FILE model_data/data_check_column_names.csv
+BEGINNING CHECK ON NUMERICAL VALUES
+COMPLETED CHECK ON NUMERICAL VALUES
+BEGINNING CHECK OF COLUMN NAMES
+ERROR  Required column HD_roadways: present more than once in csv file. Please enter it only once.
+ERROR  Column wilderness_area: present in csv file but is not needed by model.
+Required column elevation: present in csv file.
+Required column aspect: present in csv file.
+ERROR  Required column slope: missing from csv file.
+Required column HD_hydrology: present in csv file.
+Required column VD_hydrology: present in csv file.
+Required column HD_roadways: present in csv file.
+Required column HD_fire_points: present in csv file.
+Required column hillshade_9am: present in csv file.
+ERROR  Required column hillshade_noon: missing from csv file.
+Required column hillshade_3pm: present in csv file.
+Required column wilderness_index: present in csv file.
+Required column soil_index: present in csv file.
+COMPLETED CHECK OF COLUMN NAMES
+BEGINNING CHECK wilderness_index AND soil_index VALUES
+Check on column wilderness_index: all values are valid.
+Check on column soil_index: all values are valid.
+COMPLETED CHECK wilderness_index AND soil_index VALUES
+COMPLETED CHECK OF FILE model_data/data_check_column_names.csv
+
+BEGINNING CHECK OF FILE model_data/data_check_category_indices.csv
+BEGINNING CHECK ON NUMERICAL VALUES
+ERROR  Negative values not permitted in these columns: ['wilderness_index'].
+COMPLETED CHECK ON NUMERICAL VALUES
+BEGINNING CHECK OF COLUMN NAMES
+Required column elevation: present in csv file.
+Required column aspect: present in csv file.
+Required column slope: present in csv file.
+Required column HD_hydrology: present in csv file.
+Required column VD_hydrology: present in csv file.
+Required column HD_roadways: present in csv file.
+Required column HD_fire_points: present in csv file.
+Required column hillshade_9am: present in csv file.
+Required column hillshade_noon: present in csv file.
+Required column hillshade_3pm: present in csv file.
+Required column wilderness_index: present in csv file.
+Required column soil_index: present in csv file.
+COMPLETED CHECK OF COLUMN NAMES
+BEGINNING CHECK wilderness_index AND soil_index VALUES
+ERROR  Check on column wilderness_index: there are values outside valid range of 0 to 3; found min and max: -1  4
+ERROR  Check on column soil_index: there are values outside valid range of 1 to 40; found min and max: 0  41
+COMPLETED CHECK wilderness_index AND soil_index VALUES
+COMPLETED CHECK OF FILE model_data/data_check_category_indices.csv
+
+BEGINNING CHECK OF FILE model_data/data_check_numerical_values.csv
+BEGINNING CHECK ON NUMERICAL VALUES
+ERROR  Column slope contains NULL values.
+ERROR  Column wilderness_index contains values that are not numerical.
+ERROR  Negative values not permitted in these columns: ['HD_fire_points', 'aspect', 'hillshade_noon', 'hillshade_3pm', 'HD_hydrology', 'hillshade_9am', 'HD_roadways', 'slope'].
+COMPLETED CHECK ON NUMERICAL VALUES
+BEGINNING CHECK OF COLUMN NAMES
+Required column elevation: present in csv file.
+Required column aspect: present in csv file.
+Required column slope: present in csv file.
+Required column HD_hydrology: present in csv file.
+Required column VD_hydrology: present in csv file.
+Required column HD_roadways: present in csv file.
+Required column HD_fire_points: present in csv file.
+Required column hillshade_9am: present in csv file.
+Required column hillshade_noon: present in csv file.
+Required column hillshade_3pm: present in csv file.
+Required column wilderness_index: present in csv file.
+Required column soil_index: present in csv file.
+COMPLETED CHECK OF COLUMN NAMES
+BEGINNING CHECK wilderness_index AND soil_index VALUES
+Check on column soil_index: all values are valid.
+COMPLETED CHECK wilderness_index AND soil_index VALUES
+COMPLETED CHECK OF FILE model_data/data_check_numerical_values.csv
