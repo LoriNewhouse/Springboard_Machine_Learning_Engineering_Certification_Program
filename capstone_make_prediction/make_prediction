@@ -1,10 +1,12 @@
 
+import sys
 
 print('making prediction')
 
 from deployment_methods import make_prediction
 
-input_data_filename = 'user_data/user_input_data.csv'
+#input_data_filename = 'user_data/user_input_data.csv'
+input_data_filename = sys.argv[1]
 log_filename        = 'prediction_log.txt'
 predict_success = make_prediction(input_data_filename, log_filename)
 

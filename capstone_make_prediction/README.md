@@ -12,6 +12,7 @@
 - logging file `prediction_log.txt` written to current directory   
    
 ### Example prediction in this folder
+- run script at command line `python make_prediction user_data/user_input_data.csv`
 - input data `user_data/user_input_data.csv`
 - result `user_data/user_input_data_with_prediction.csv` and `prediction_log.txt`   
    
